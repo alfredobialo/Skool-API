@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "external_styles/css/bootstrap.min.css";
+@import "external_styles/css/font-awesome.min.css"; */
+
+
+/*.min-h300
+{
+    min-height: 300px;
+}
+
+.pad10
+{
+    padding: 10px;
+}
+.pad20
+{
+    padding : 20px;
+}
+
+div.footer
+{
+    !*position: fixed;*!
+    !*bottom: 0;*!
+    !*left : 0;*!
+    !*right: 0;*!
+    background-color: lightslategray;
+    color:white;
+}
+.shadow
+{
+    box-shadow: 0px 1px 6px #d3d3d3;
+}
+.margin-20{
+    margin: 20px;
+}
+.margin-b-20
+{
+    margin-bottom: 20px;
+}*/
+
+  div.laravel
+  {
+    display  : flex;
+
+  }
+
+ .laravel> .heading
+ {
+   font-size  :  50px;
+
+ }
+ .laravel > ul.menu{
+   display: inline;
+   list-style:  none;
+   margin-botton : 20px;
+
+ }
+ ul.menu li
+ {
+   list-style: none;
+ }
+ ul.menu a{
+   text-decoration: none ;
+   text-transform:  uppercase;
+   color  : #848484;
+   padding : 10px 20px;
+ }
+body{
+  line-height: 26px;
+}
+div.app-nav
+{
+  position: fixed;
+  left: 0;
+  right:0;
+  top :0;
+
+z-index: 10;
+}
